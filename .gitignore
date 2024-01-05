@@ -1,0 +1,47 @@
+# Ignore configuration files that may contain sensitive information.
+.idea
+.vagrant
+backup
+.web
+
+#Ignore local settings.
+settings.local.php
+
+# Docker override file.
+docker-compose.override.yml
+
+# Ignore Composer-managed dependencies.
+## Other
+node_modules
+web/_ignore
+
+## OS specific mess.
+Thumbs.db
+.DS_Store
+.docker-sync/
+
+## eclipse
+.project
+.buildpath
+/.settings
+
+## NetBeans
+nbproject
+vendor/
+web/core/
+web/modules/contrib/
+web/themes/contrib/
+web/profiles/contrib/
+web/libraries/
+web/core/libraries/
+# Ignore sensitive information
+web/sites/*/settings.local.php
+web/sites/*/settings.ddev.redis.php
+# Ignore Drupal's file directory
+web/sites/*/files/
+web/sites/default/files
+bin/
+/.gitattributes
+
+dumps/*.sql
+dumps/*.sql.gz

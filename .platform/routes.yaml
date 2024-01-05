@@ -1,0 +1,5 @@
+https://anom.{default}/:
+  type: upstream
+  upstream: "app:http"
+  cache:
+    enabled: false
